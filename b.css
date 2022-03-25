@@ -1,0 +1,44 @@
+
+body {
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 42px;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 42px;
+    margin: 0;
+  }
+  
+  .entries {
+    margin-bottom: 60px;
+  }
+  
+  .heading {
+    margin-bottom: 60px;
+  }
+  
+  .chapter {
+    text-transform: uppercase;
+  }
+  
+  p {
+    margin: 0;
+    /* margin-left: 10em;
+    margin-right: 10em; */
+  }
+  
+  .page {
+    margin-top: 10px;
+  }
+  
+  span {
+    display: block;
+  }
