@@ -1,0 +1,52 @@
+body {
+	/*background: radial-gradient(lightblue, blue);*/
+	background: lightblue;
+}
+
+
+.container {
+	padding-top: 10%;
+	justify-content: center;
+	align-items: center;
+	/*height: 100vh;*/
+}
+
+.item {
+	text-align: center;
+}
+
+#Layer_3 {
+	height: 500px;
+}
+
+@keyframes spinType {
+	0% {
+		transform: rotate(1turn);
+		background-color: lightblue;
+		border-radius: 100%;
+	}
+	50% {
+		transform: rotate(-1turn);
+		background-color: #FFB870;
+		border-radius: 100%;
+	}
+}
+
+
+#Layer_3 {
+  animation-name: spinType;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+#Layer_3:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+
