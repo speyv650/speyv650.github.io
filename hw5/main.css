@@ -1,0 +1,21 @@
+#table>th:nth-child(even){
+    color: green;
+}
+
+.completion-false{
+    color: red;
+}
+
+.completion-true{
+    color: green;
+}
+
+.even-row {
+    background-color: #f0f0f5;
+}
+
+.odd-row {
+    background-color: #e0e0eb;
+}
+
+
