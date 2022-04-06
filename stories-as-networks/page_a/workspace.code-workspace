@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../page_b"
+		},
+		{
+			"path": "../page_c"
+		},
+		{
+			"path": "../home_page"
+		}
+	]
+}
