@@ -1,0 +1,139 @@
+body {
+  /* background-color: black; */
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* START VIDEOS */
+
+.vid1 {
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.vid1, .vid2, .vid3 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid2 {
+  top: 6.75%;
+  left: 50%;
+}
+
+.vid3 {
+  top: 6.75%;
+  left: 50%;
+}
+
+.vid4 {
+  position: absolute;
+  top: 6.75%;
+  left: 50%;
+}
+
+/* END VIDEOS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.vid1 {
+  width: 1000px;
+  height: 900px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid2 {
+  width: 500px;
+  height: 450px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid3 {
+  width: 250px;
+  height: 225px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid4 {
+  width: 125px;
+  height: 112px;
+  position: absolute;
+  top: 0px;
+  top: 0px;
+}
+*/
+
+
+/*This is how you make comments in css.
+I am referencing the id I made in HTML
+*/
+
+
+
+
+
+
+/*
+#vid1{
+  width: 1000px;
+  height: 900px;
+  margin-top: -70%;
+  margin-right: 0%;
+}
+
+#vid2{
+  float: right;
+  width: 500px;
+  height: 450px;
+  margin-top: -69%;
+  margin-right: 0%;
+}
+
+
+#vid3{
+  float: right;
+  width: 200px;
+  height: 225px;
+  margin-top: -67%;
+  margin-right: 0%;
+}
+
+#vid4{
+  float: right;
+  width: 100px;
+  height: 112px;
+  margin-top: -65%;
+  margin-right: 0%;
+}
+*/

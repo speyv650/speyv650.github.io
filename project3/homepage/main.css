@@ -1,0 +1,60 @@
+header
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1
+{
+		position: relative;
+		text-align:center;
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+		color: #fff;
+		font-family:sans-serif;
+		font-size: 5em;
+		text-shadow: 0 5px 20px rgba(0,0,0,.2);
+
+}
+.webpage{
+	display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+}
+
+.logo{
+
+		transition: logo-shadow .3s;
+		width: 400px;
+		height: 400px;
+		display:block;
+		margin: 50px;
+		border-radius:400px;
+		border: 1px solid #bbb;
+		background: #fff;
+		float: left;
+}
+
+.logo:hover {
+box-shadow: 0 0 15px rgba(33,33,33,.2);
+}
+
+.tiktoklogo.png{
+	position: absolute;
+	left:100px;
+	top:150px;
+}
+
+.webpage{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.logo{
+}
